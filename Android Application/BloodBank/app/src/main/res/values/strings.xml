@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">BloodBank</string>
+    <string-array name="cities">
+        <item>Ankara</item>
+        <item>Antalya</item>
+        <item>Istanbul</item>
+        <item>Izmir</item>
+        <item>Kocaeli</item>
+        <item>Trabzon</item>
+    </string-array>
+    <string-array name="Sexes">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Unknown</item>
+    </string-array>
+    <string-array name="Types">
+        <item>0 Rh-</item>
+        <item>0 Rh+</item>
+        <item>A Rh-</item>
+        <item>A Rh+</item>
+        <item>B Rh-</item>
+        <item>B Rh+</item>
+        <item>AB Rh-</item>
+        <item>AB Rh+</item>
+    </string-array>
+    <string-array name="Donors">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="Years">
+        <item>1990</item>
+        <item>1991</item>
+        <item>1992</item>
+        <item>1993</item>
+        <item>1994</item>
+    </string-array>
+</resources>

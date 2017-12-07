@@ -1,0 +1,50 @@
+.mystatus {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.mystatus td, .mystatus th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.mystatus tr:nth-child(even){background-color: #f2f2f2;}
+
+.mystatus tr:hover {background-color: #ddd;}
+
+.mystatus th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
+
+input[type=email], input[type=password], input[type="text"], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+#btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+#mydiv{
+    position:fixed;
+    margin-left:-150px; /* half of width */
+    margin-top:-150px;  /* half of height */
+    top:45%;
+    left:45%;
+}

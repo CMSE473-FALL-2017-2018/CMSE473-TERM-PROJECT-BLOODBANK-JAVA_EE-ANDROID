@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@color/app_color"
+    tools:context="cmse473.bloodbank.Activity.PanelActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvHeader"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:text="Welcome, Name Surname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:padding="15dp"
+            android:background="@drawable/btn_bg"
+            android:id="@+id/btnFindDonor"
+            android:text="Find Donor"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:padding="15dp"
+            android:background="@drawable/btn_bg"
+            android:id="@+id/btnFindSeeker"
+            android:text="Find Seeker"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:padding="15dp"
+            android:background="@drawable/btn_bg"
+            android:id="@+id/btnChangeStatus"
+            android:text="Change Status"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:padding="15dp"
+            android:background="@drawable/btn_bg"
+            android:id="@+id/btnSeekBlood"
+            android:text="Seek Blood"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:padding="15dp"
+            android:background="@drawable/btn_bg"
+            android:id="@+id/btnSettings"
+            android:text="Settings"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:padding="15dp"
+            android:background="@drawable/btn_bg"
+            android:id="@+id/btnLogout"
+            android:text="Logout"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+</LinearLayout>

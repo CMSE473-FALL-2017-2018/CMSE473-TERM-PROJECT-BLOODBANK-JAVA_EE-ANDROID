@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/app_color"
+    android:layout_height="match_parent"
+    tools:context="cmse473.bloodbank.Activity.HomeActivity">
+
+    <ImageView
+        android:src="@drawable/img_avatar2"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:paddingLeft="10dp"
+        android:hint="E-mail"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:background="@drawable/et_bg"
+        android:id="@+id/etMail"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:hint="Password"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:background="@drawable/et_bg"
+        android:id="@+id/etPassword"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:textSize="17dp"
+        android:background="@drawable/btn_bg"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnLogin"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/tvRegister"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Now" />
+</LinearLayout>

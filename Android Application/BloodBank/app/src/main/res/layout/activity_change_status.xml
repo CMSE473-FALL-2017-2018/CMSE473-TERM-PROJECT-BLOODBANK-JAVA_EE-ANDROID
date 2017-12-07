@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_color"
+    android:orientation="vertical"
+    android:gravity="top|center"
+    tools:context="cmse473.bloodbank.Activity.ChangeStatusActivity">
+
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:text="Change Status:\nAvailable for donation?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spnDonor"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"></Spinner>
+
+    <Button
+        android:layout_marginTop="70dp"
+        android:id="@+id/btnOK"
+        android:text="OK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+</LinearLayout>

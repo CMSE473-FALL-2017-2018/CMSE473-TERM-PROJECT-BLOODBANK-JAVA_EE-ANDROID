@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/app_color"
+    android:layout_height="match_parent"
+    tools:context="cmse473.bloodbank.Activity.RegisterActivity">
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLEASE FILL THE FORM BELOW" />
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:background="@drawable/et_bg"
+        android:id="@+id/etMail"
+        android:layout_width="250dp"
+        android:hint="E-mail"
+        android:paddingLeft="10dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:background="@drawable/et_bg"
+        android:hint="Password"
+        android:id="@+id/etPassword"
+        android:layout_width="250dp"
+        android:paddingLeft="10dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="250dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/et_bg"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <Spinner
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/spSex"
+        android:layout_width="250dp"/>
+
+    <Spinner
+        android:id="@+id/spYear"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+
+        />
+
+    <Spinner
+        android:id="@+id/spCity"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+
+        />
+
+    <Spinner
+        android:id="@+id/spType"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+
+        />
+
+    <Spinner
+        android:layout_marginTop="5dp"
+        android:id="@+id/spDonation"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        />
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:textSize="17dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="@drawable/btn_bg"
+        android:textAllCaps="false"
+        android:id="@+id/btnEnroll"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Enroll" />
+</LinearLayout>

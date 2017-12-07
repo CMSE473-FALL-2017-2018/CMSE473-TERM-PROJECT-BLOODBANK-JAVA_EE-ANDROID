@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/app_color"
+    tools:context="cmse473.bloodbank.Activity.SettingsActivity">
+
+    <TextView
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:text="You are allowed to change only \nbelow informations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:paddingLeft="15dp"
+        android:hint="E-mail"
+        android:background="@drawable/et_bg"
+        android:id="@+id/etSetMail"
+        android:layout_width="250dp"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:paddingLeft="15dp"
+        android:hint="Password"
+        android:background="@drawable/et_bg"
+        android:id="@+id/etSetPass"
+        android:layout_width="250dp"
+        android:layout_height="50dp" />
+
+    <Spinner
+        android:layout_marginTop="5dp"
+        android:id="@+id/spnSetCity"
+        android:layout_width="250dp"
+        android:layout_height="50dp"></Spinner>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:paddingLeft="15dp"
+        android:hint="New Password"
+        android:background="@drawable/et_bg"
+        android:id="@+id/etSetNewPass"
+        android:layout_width="250dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:text="Save Changes"
+        android:id="@+id/btnSave"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="60dp"
+        android:textAllCaps="false"
+        android:text="Delete My Account"
+        android:id="@+id/delAccount"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
